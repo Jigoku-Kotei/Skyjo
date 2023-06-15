@@ -4,5 +4,10 @@ using UnityEngine;
 
 public class ScoreToCard : MonoBehaviour
 {
-    [SerializeField] ScriptableObject CardScore;
+    [SerializeField] ScriptableObject cardScore;
+
+    private void Start()
+    {
+        // récupérer le score des cartes sur le terrain du joueur
+    }
 }
